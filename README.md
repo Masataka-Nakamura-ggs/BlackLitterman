@@ -1,6 +1,3 @@
-はい、承知いたしました。これまでのやり取りで提示・議論したブラックリッターマンモデルのNode.js/TypeScript実装（`blackLitterman.ts`）を前提とした `README.md` のサンプルを作成します。
-
-````markdown
 # ブラックリッターマンモデル Node.js/TypeScript 実装
 
 ## 概要
