@@ -1,0 +1,74 @@
+# 依存関係
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript ビルド出力
+# TypeScript build output
+dist/
+build/
+out/
+*.js
+*.js.map
+*.d.ts
+# 上記は .ts ファイルと同じ階層に .js が出力される場合を想定しています。
+# もし `tsconfig.json` の `outDir` で出力先を指定している場合は、
+# そのディレクトリ名を指定してください (例: dist/)
+# また、型定義ファイル (.d.ts) をGit管理下に置きたい場合は、*.d.ts の行を削除またはコメントアウトしてください。
+# ただし、通常はビルドプロセスで生成されるため、ignoreすることが多いです。
+
+# ログファイル
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 環境変数ファイル
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# IDE とエディタの設定ファイル
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS 生成ファイル
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# テスト関連
+# Test related
+coverage/
+.nyc_output/
+
+# その他
+# Miscellaneous
+.eslintcache
+*.tsbuildinfo
+
+# 一時ファイルやキャッシュ
+# Temporary files and caches
+.tmp/
+.cache/
